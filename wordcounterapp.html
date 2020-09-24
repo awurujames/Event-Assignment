@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Word Counter App</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <section class="container">
+      <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1"
+          >Word Counter App - Job Placement</span
+        >
+      </nav>
+      <div class="jumbotron">
+        <div class="overlay"></div>
+        <div class="content">
+          <h1 class="display-4">Word Counter App</h1>
+          <p>
+            Our Word Counter App helps Job Placement<br />
+            Agencies to implement interative features <br />on their job
+            applications portal.
+          </p>
+          <hr class="my-4" />
+          <p>
+            Word Counter App uses Javascript as a<br />preferred language of
+            choice
+          </p>
+          <a class="btn btn-primary btn-lg" href="#" role="button"
+            >Learn more</a
+          >
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h1>Getting Started</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+            cupiditate, omnis ab sequi asperiores possimus sed porro. Modi,
+            voluptatem aperiam. Optio veniam aspernatur inventore consequatur
+            saepe, rerum nihil maxime omnis!
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam totam
+            exercitationem aliquid quo, eos velit quia? Veritatis sunt eius sit
+            ad, beatae nihil delectus ex voluptatum adipisci ab repellendus
+            facere?
+          </p>
+        </div>
+        <div class="col-md-6">
+          <h2>Cover Letter</h2>
+          <p>Enter your cover letter in the space provided below</p>
+          <p class="text-danger">
+            Hint: Letter must not be more than 200 words.
+          </p>
+          <form action="">
+            <div class="form-group">
+              <textarea
+                class="form-control"
+                autofocus
+                id="txtLetter"
+              ></textarea>
+            </div>
+            <div class="form-group">
+              <input
+                type="text"
+                class="form-control"
+                readonly
+                value="200 words remaining"
+                id="txtResult"
+              />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="js/app.js"></script>
+  </body>
+</html>
